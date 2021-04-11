@@ -1,6 +1,6 @@
 
 body{
-  background-image: url("/images/silverware.jpg");
+  background-image: url("silverware.jpg");
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
 }
 h1{
@@ -41,7 +41,7 @@ abbr{
   border: olive solid 2px;
    border-radius: 5px; 
    padding: 10px;
-   background: url(/images/acp.jpg);
+   background: url(acp.jpg);
    width: 18cm;
    margin: 10px;
 }

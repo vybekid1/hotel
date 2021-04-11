@@ -1,6 +1,6 @@
 body{
     font-family:Helvetica,Arial,sans-serif;
-    background-image: url("/images/pcp.jpg");
+    background-image: url("pcp.jpg");
     background-repeat: no-repeat;
     color: rgb(0, 17, 255);
     padding: 0px;
@@ -42,7 +42,7 @@ h3{
          border-spacing: 50px;
          flex-wrap: wrap;
          padding: auto;
-         background:url("images/acp.jpg");
+         background:url("acp.jpg");
          background-position: center;
          width: auto;
      }
