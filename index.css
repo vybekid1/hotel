@@ -206,4 +206,7 @@ h3{
                 color: rgb(2, 236, 253);
                 text-decoration: none;
             }
+            footer .links a {
+                font-size: 1.2rem;
+            }
         }
