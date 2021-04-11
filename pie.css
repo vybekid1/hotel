@@ -1,0 +1,142 @@
+
+body{
+  background-image: url("/images/silverware.jpg");
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
+}
+h1{
+  text-align: center;
+  background-color:rgb(240, 240,240);
+  background-size: 70%;
+  text-decoration:underline;
+  color:rgb(164,164, 0);
+  font-size: 22pt;
+}
+h3{
+  background-color:rgb(240, 240,240);
+  text-decoration:underline;
+  color:rgb(164,164, 0);
+  font-family: Helvetica, Arial,;
+  font-size: 18pt;
+
+}
+abbr{
+  text-decoration: none;
+}
+.copyright{
+  background: none;
+  font-style: normal;
+
+}
+.image {
+  width:auto;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  background-color:none;
+
+}
+.emilie,.vickie,.jean{
+  display: flex;
+  border-bottom: rgb(96, 146, 47); 
+  border: olive solid 2px;
+   border-radius: 5px; 
+   padding: 10px;
+   background: url(/images/acp.jpg);
+   width: 18cm;
+   margin: 10px;
+}
+.text{
+  text-align: center;
+  background: none;
+  margin-left: 2px;
+  font-size: 1rem;
+  font-family:"Arial Nova";
+  
+}
+
+.comments .emilie ,.jean,.vickie{
+  display: block;
+  background: rgb(60, 93, 243);
+  border: none;
+  margin-top: 1.5em;
+}
+ .jean .image img, .emilie .image img , .vickie .image img{
+  border: rgb(60, 93, 243) 4px solid;
+  width: 100px;
+  height:100px;
+  border-radius: 50%;
+  margin-top: -3.5em;
+  margin-left: 100px;
+}
+.jean p,.vickie  p, .emilie p{
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.5px;
+  margin-left: 33.3%;
+
+}
+
+@media only  screen  and (max-width:500px){
+  ul{
+    font-size: .9rem;
+  }
+  h1{
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color:slateblue;
+  }
+  h3{
+    text-align: center;
+    color: #000;
+  }
+ .comments{
+   padding-top: 12px;
+ }
+  .lemon{
+    display: flex;
+    font-weight: bold;
+    font-size: .6em;
+    color: rgb(3, 3, 3);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .lemon img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    padding-right: 2em;
+  }
+
+  .comments .emilie ,.jean,.vickie{
+    display: block;
+    background: rgb(60, 93, 243);
+    border: none;
+    width: 90%;
+    font-size: 1.3rem;
+    align-items: center;
+    margin-top: 1.5em;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom:4px solid rgb(7, 6, 59);
+    border-top:2px solid rgb(7, 6, 59);
+  }
+   .jean .image img, .emilie .image img , .vickie .image img{
+    border: rgb(60, 93, 243) 4px solid;
+    border-radius: 50%;
+    margin-top: -3.0em;
+    margin-left: 0%;
+  }
+  .jean p,.vickie  p, .emilie p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 0%;
+    text-transform: uppercase;
+
+  }
+.footer a img{
+    border:5px rgb(0, 183, 255) solid;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+}

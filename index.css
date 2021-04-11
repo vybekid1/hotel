@@ -1,0 +1,209 @@
+body{
+    font-family:Helvetica,Arial,sans-serif;
+    background-image: url("/images/pcp.jpg");
+    background-repeat: no-repeat;
+    color: rgb(0, 17, 255);
+    padding: 0px;
+}
+nav{
+    background-color: white;
+    margin: 0pt;
+    padding: 5px;
+    min-height: 2cm;
+}
+
+h3{
+    text-decoration: underline;
+    color: rgb(21, 71, 233);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+         a[href="pie.html"]{
+         text-align: center;
+         text-decoration: none;
+     }
+     h4{
+         background-color:none;
+         height: fit-content;
+         width: fit-content;
+         text-align: center;
+         margin:auto;
+         border-radius: 5px;
+         color: rgb(0, 0, 0);
+         text-align: center;
+         direction: flex;
+         flex-direction: row;
+         font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+     }
+     .menu{
+         background-repeat: no-repeat;
+         border-radius: 5px;
+         text-align: center;
+         border-spacing: 50px;
+         flex-wrap: wrap;
+         padding: auto;
+         background:url("images/acp.jpg");
+         background-position: center;
+         width: auto;
+     }
+     img{
+         width: 150px;
+         border-radius: 200px
+     }
+     .menus{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        border-radius: 5px;
+        text-align: center;
+        margin: auto;
+        color: rgb(0, 255, 242);
+        font-weight: 500;
+        font-size: 1.5rem;
+        padding-left:auto;
+        background-size: auto;
+    }
+     p{
+         color: rgb(255, 255, 255);
+         font-family: Helvetica,Arial,sans-serif,'global san sans-serif';
+         font: weight 900px;
+         font-size: 1.4rem;
+         font-style: bold;
+     }
+   
+     a[href="mailto:vybekid1@gmail.com"],[href="https://twitter.com/vybekid1"],[href="https://facebook.com/vybekid1"],[href="https://instagram.com/vybekid1"]{
+        font-size: 1.8rem;
+        color: rgb(94, 114, 3);
+        text-decoration: none;
+    }
+     a[href="https://instagram.com/vybekid1"]:hover{
+         color: rgba(224, 26, 125, 0.945);
+    }
+    a[href="https://facebook.com/vybekid1"]:hover{
+        color: rgb(0, 38, 255);
+    }
+    a[href="https://twitter.com/vybekid1"]:hover{
+        color: rgb(35, 130, 255);
+    }
+    a[href="mailto:vybekid1@gmail.com"]:hover{
+        color: rgb(5, 69, 151);
+    }
+    [href="tel:254703326838"]:hover{
+        color: rgb(26, 177, 12);
+        font-size: 1rem;
+        mix-blend-mode:difference;
+    filter: invert(100%);
+    }
+    [href="index.html"]{
+        color: rgb(231, 159, 4);
+        font-size: 1rem;
+        text-decoration: none;
+    }
+     footer{
+         background-color:none;
+         height: fit-content;
+         width: fit-content;
+         text-align: center;
+         margin:auto;
+         border-radius: 5px;
+         color: rgb(0, 0, 0);
+         content: normal;
+         text-align: center;
+         direction: flex;
+         flex-direction: row;
+     }
+     strong{
+         color: rgb(27, 0, 90);
+     }
+     h1{
+         align-items: center;
+     }
+     logo a {
+        margin : 5px;
+        text-decoration: none;
+        color:rgb(219 , 32 , 63 ) ;
+        font-size: 35px;
+        font-weight : 600 ; 
+        position:fixed;
+        width: 100%;
+    font-family:helvetica,sans-serif;
+   }
+     .logo a span{
+        color : rgb(0, 134, 0) ; 
+        text-decoration : none ;
+        font-weight: bold;
+            display: block;
+            font-size:large;
+            display : inline-block ; 
+            background:none;
+            padding : 5px 15px ; 
+            border-radius : 6px ;
+            border :2px solid #1d0052;
+    } 
+     #hmetxt { 
+        text-align : center ;
+        float: right;
+        }
+        .logo span:hover{
+            color: rgb(17, 55, 223);
+            font-weight: bold;
+            font-size:large;
+            display : inline-block ; 
+            background: linear-gradient(to left, #14be04, #1d0052);
+            padding : 5px 15px ; 
+            border-radius : 6px ;
+            border : 2px solid rgb(82, 87, 128) ;
+        }
+    #hmetxt a{
+        text-decoration : none ; 
+        display : inline-block ; 
+        background:none;
+        color: rgb(81, 255, 0);
+        font-size : 1rem;
+        padding : 5px 15px ; 
+        border-radius : 6px ;
+        border : 2px solid rgb(0, 255, 0) ;
+     }
+     #hmetxt a:hover {
+         color :Llorange;
+         background: linear-gradient(to left, #0011ff, #0026ff);
+        transition : all 2s eases;
+            
+        }
+
+        @media only  screen  and (max-width:500px){
+            body{
+                background: bisque;
+            }
+            header{
+                background: rgb(255, 143, 5);
+            }
+           .menus ul{
+               padding-bottom: 2px;
+               height: 10px;
+           }
+            .logo .hmetxt a{
+                border: none;
+                color: blue;
+                font-size: 1rem;
+            }
+            .menu .menus{
+                margin: 0;
+                font-size: 1rem;
+                text-align: center;
+                margin-right: 0;
+                font-weight: bold;
+                color: #000;
+                height: 38em;
+            }
+            nav{
+                background: bisque;
+                margin: 0;
+                border: 0;
+            }
+            a[href="mailto:vybekid1@gmail.com"],[href="https://twitter.com/vybekid1"],[href="https://facebook.com/vybekid1"],[href="https://instagram.com/vybekid1"]{
+                font-size: 12rem;
+                color: rgb(2, 236, 253);
+                text-decoration: none;
+            }
+        }
