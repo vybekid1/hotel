@@ -56,7 +56,7 @@ abbr{
 
 .comments .emilie ,.jean,.vickie{
   display: block;
-  background: rgb(60, 93, 243);
+  background: rgb(205, 207, 216);
   border: none;
   margin-top: 1.5em;
 }
@@ -109,34 +109,29 @@ abbr{
 
   .comments .emilie ,.jean,.vickie{
     display: block;
-    background: rgb(60, 93, 243);
+    background: rgb(205, 207, 216);
     border: none;
     width: 90%;
     font-size: 1.3rem;
     align-items: center;
-    margin-top: 1.5em;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom:4px solid rgb(7, 6, 59);
-    border-top:2px solid rgb(7, 6, 59);
+    border-top-left-radius :15px;
+    border-top-right-radius: 15px;
+    border-bottom:4px solid rgb(36, 34, 148);
+    border-top:2px solid rgb(41, 38, 185);
   }
    .jean .image img, .emilie .image img , .vickie .image img{
     border: rgb(60, 93, 243) 4px solid;
     border-radius: 50%;
     margin-top: -3.0em;
     margin-left: 0%;
+    backface-visibility:hidden;
   }
   .jean p,.vickie  p, .emilie p{
-    font-weight: bold;
-    font-size: 1.5rem;
+    font-weight: bolder;
+    font-size: 1rem;
     text-align: center;
     margin-left: 0%;
     text-transform: uppercase;
 
-  }
-.footer a img{
-    border:5px rgb(0, 183, 255) solid;
-    border-bottom-left-radius: 15px;
-    border-top-right-radius: 15px;
   }
 }
