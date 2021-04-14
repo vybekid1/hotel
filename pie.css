@@ -147,7 +147,7 @@ abbr{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 19em;
+    width: auto;
   }
    .jean .image img, .emilie .image img , .vickie .image img{
     border: rgb(60, 93, 243) 4px solid;
@@ -156,16 +156,27 @@ abbr{
     margin-left: 0%;
     backface-visibility:hidden;
   }
-  .jean p,.vickie  p, .emilie p{
+  .jean p{
     font-weight:900;
     font-size: 1rem;
     text-align: center;
     border-bottom: 2px black solid;
     border-top: 2px solid black;
-    width: 10em;
+    width: fit-content;
     border-left: none;
-    margin-top: -.1em;
+    margin-top: 0.9em;
     margin-left: 30%;
+}
+.emilie p,.vickie p{
+  font-weight:900;
+  font-size: 1rem;
+  text-align: center;
+  border-bottom: 2px black solid;
+  border-top: 2px solid black;
+  width: fit-content;
+  border-left: none;
+  margin-top: 0.9em;
+  margin-left: 40%;
 }
 
 header{
