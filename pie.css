@@ -136,7 +136,6 @@ abbr{
     margin-left:1em;
     font-size: 1.2rem;
     text-align: center;
-
     border-top-left-radius :15px;
     border-top-right-radius: 15px;
     border-bottom:4px solid rgb(36, 34, 148);
@@ -145,8 +144,10 @@ abbr{
   .text{
     margin-top: -1.2em;
     font-weight: 700;
+    display:flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 22em;
+    width: 19em;
   }
    .jean .image img, .emilie .image img , .vickie .image img{
     border: rgb(60, 93, 243) 4px solid;
