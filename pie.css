@@ -3,10 +3,26 @@ body{
   background-image: url("silverware.jpg");
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;;
 }
+header{
+  height: 2cm;
+  text-decoration: none;
+  padding: 1em;
+  background-color: powderblue;
+}
+#home {
+  float: right;
+  border: 2px solid rgb(15, 77, 70);
+  text-decoration: none;
+  font-size: .7em;
+  font-weight: 700;
+  color: currentColor;
+}
+.home a:hover{
+  color: turquoise;
+  border:2px solid rgb(164,164, 0);
+
+}
 h1{
-  text-align: center;
-  background-color:rgb(240, 240,240);
-  background-size: 70%;
   text-decoration:underline;
   color:rgb(164,164, 0);
   font-size: 22pt;
@@ -17,15 +33,14 @@ h3{
   color:rgb(164,164, 0);
   font-family: Helvetica, Arial,;
   font-size: 18pt;
-
 }
+
 abbr{
   text-decoration: none;
 }
 .copyright{
   background: none;
   font-style: normal;
-
 }
 .image {
   width:auto;
@@ -35,45 +50,51 @@ abbr{
   background-color:none;
 
 }
-.emilie,.vickie,.jean{
-  display: flex;
-  border-bottom: rgb(96, 146, 47); 
-  border: olive solid 2px;
-   border-radius: 5px; 
-   padding: 10px;
-   background: url(acp.jpg);
-   width: 18cm;
-   margin: 10px;
+
+.lemon{
+  padding: 1em;
 }
+
 .text{
   text-align: center;
   background: none;
   margin-left: 2px;
   font-size: 1rem;
   font-family:"Arial Nova";
-  
-}
 
+}
+.comments{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .comments .emilie ,.jean,.vickie{
   display: block;
   background: rgb(205, 207, 216);
   border: none;
-  margin-top: 1.5em;
+  margin-right: .2em;
+  margin-left: .2em;
+  margin-top: 3.5em;
+  width: 12cm;
 }
  .jean .image img, .emilie .image img , .vickie .image img{
   border: rgb(60, 93, 243) 4px solid;
   width: 100px;
   height:100px;
   border-radius: 50%;
-  margin-top: -3.5em;
-  margin-left: 100px;
+  margin-top:-3em;
 }
 .jean p,.vickie  p, .emilie p{
-  font-weight: bold;
+  font-weight: 900;
   font-size: 1.5rem;
-  padding: 0.5px;
-  margin-left: 33.3%;
+  text-align: center;
+  margin-top: -.15em;
+  justify-content: center;
 
+}
+.text{
+  font-weight: 700;
+  margin-top: -1.4em;
 }
 
 @media only  screen  and (max-width:500px){
@@ -82,7 +103,8 @@ abbr{
   }
   h1{
     text-transform: uppercase;
-    font-size: 1.3em;
+    font-size: .8em;
+    font-weight: 800;
     color:slateblue;
   }
   h3{
@@ -90,12 +112,12 @@ abbr{
     color: #000;
   }
  .comments{
-   padding-top: 12px;
+   padding-top:1em;
  }
   .lemon{
+    padding: .75em;
     display: flex;
     font-weight: bold;
-    font-size: .6em;
     color: rgb(3, 3, 3);
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
@@ -109,15 +131,22 @@ abbr{
 
   .comments .emilie ,.jean,.vickie{
     display: block;
-    background: rgb(205, 207, 216);
-    border: none;
+    background: rgba(151, 152, 155 );
     width: 90%;
-    font-size: 1.3rem;
-    align-items: center;
+    margin-left:1em;
+    font-size: 1.2rem;
+    text-align: center;
+
     border-top-left-radius :15px;
     border-top-right-radius: 15px;
     border-bottom:4px solid rgb(36, 34, 148);
     border-top:2px solid rgb(41, 38, 185);
+  }
+  .text{
+    margin-top: -1.2em;
+    font-weight: 700;
+    justify-content: space-evenly;
+    width: 22em;
   }
    .jean .image img, .emilie .image img , .vickie .image img{
     border: rgb(60, 93, 243) 4px solid;
@@ -127,11 +156,31 @@ abbr{
     backface-visibility:hidden;
   }
   .jean p,.vickie  p, .emilie p{
-    font-weight: bolder;
+    font-weight:900;
     font-size: 1rem;
     text-align: center;
-    margin-left: 0%;
-    text-transform: uppercase;
+    border-bottom: 2px black solid;
+    border-top: 2px solid black;
+    width: 10em;
+    border-left: none;
+    margin-top: -.1em;
+    margin-left: 30%;
+}
 
-  }
+header{
+  height: 3em;
+  background-color: plum;
+  padding: 5px;
+}
+  .home a{
+    display: flex;
+  float: right;
+  border: 2px solid turquoise;
+  text-decoration: none;
+}
+.home a:hover{
+  color: turquoise;
+  border:2px solid rgb(164,164, 0);
+
+}
 }

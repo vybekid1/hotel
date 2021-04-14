@@ -1,75 +1,52 @@
 body{
+    background:rgb(217, 239, 241);
     font-family:Helvetica,Arial,sans-serif;
-    background-image: url("pcp.jpg");
-    background-repeat: no-repeat;
     color: rgb(0, 17, 255);
-    padding: 0px;
+
 }
 nav{
-    background-color:thistle;
-    padding:0.4em;
-    height: 1.3cm;
+    background: powderblue;
+    padding:1em;
+    height: 2cm;
+    flex-direction: row;
     margin-left: -.5em;
     margin-top: -0.5em;
 }
-
-h3{
-    text-decoration: underline;
-    color: rgb(21, 71, 233);
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+.ht-img a{
+    text-align: center;
+    margin-left: 50%;
+    margin-top: -1em;
+}
+hr{
+    width: 100%;
+    height: -0.1em;
+    border: 3px solid  ;
+}
+.ht-img img{
+    width:100px ;
+    margin-top: -8em;
+    border-radius:50% ;
+    border: 5px solid teal;
+}
+.ht-img img:hover{
+    width:100px ;
+    margin-top: -8em;
+    border-radius:50% ;
+    border: 5px solid rgb(0, 157, 248);
+}
+main{
+    padding: 1em;
+}
+.pie{
+    display: block;
+    justify-content: space-between;
     text-align: center;
 }
-         a[href="pie.html"]{
-         text-align: center;
-         text-decoration: none;
-     }
-     h4{
-         background-color:none;
-         height: fit-content;
-         width: fit-content;
-         text-align: center;
-         border-radius: 5px;
-         color: rgb(0, 0, 0);
-         direction: flex;
-         flex-direction: row;
-         font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-     }
-     .menu{
-         background-repeat: no-repeat;
-         border-radius: 5px;
-         text-align: center;
-         border-spacing: 50px;
-         flex-wrap: wrap;
-         background:url("acp.jpg");
-         background-position: center;
-     }
-     img{
-         width: 150px;
-         border-radius: 200px
-     }
-     .menus{
-        display:flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        border-radius: 5px;
-        color: rgb(0, 255, 242);
-        font-weight: 200;
-        font-size: 1.5rem;
-        background-size: auto;
-    }
-     p{
-         color: rgb(255, 255, 255);
-         font-family: Helvetica,Arial,sans-serif,'global san sans-serif';
-         font: weight 900px;
-         font-size: 1.4rem;
-         font-style: bold;
-     }
-   
-     a[href="mailto:vybekid1@gmail.com"],[href="https://twitter.com/vybekid1"],[href="https://facebook.com/vybekid1"],[href="https://instagram.com/vybekid1"]{
-        font-size: 1.8rem;
-        color: rgb(94, 114, 3);
-        text-decoration: none;
-    }
+.pie img{
+    width: 230px;
+    justify-content: space-between;
+    margin: .4em;
+}
      a[href="https://instagram.com/vybekid1"]:hover{
          color: rgba(224, 26, 125, 0.945);
     }
@@ -82,63 +59,55 @@ h3{
     a[href="mailto:vybekid1@gmail.com"]:hover{
         color: rgb(5, 69, 151);
     }
-    [href="tel:254703326838"]:hover{
-        color: rgb(26, 177, 12);
-        font-size: 1rem;
-        mix-blend-mode:difference;
-    filter: invert(100%);
-    }
-    [href="index.html"]{
-        color: rgb(231, 159, 4);
-        font-size: 1rem;
-        text-decoration: none;
-    }
-     footer{
+     footer .links a{
          background-color:none;
-         height: fit-content;
-         width: fit-content;
-         text-align: center;
-         margin:auto;
-         border-radius: 5px;
          color: rgb(0, 0, 0);
-         content: normal;
+         text-align: left;
+         width: fit-content;
+         display: block;
+         text-decoration: none;
+         margin-top: -.4em;
+     }
+     .att{
          text-align: center;
-         direction: flex;
-         flex-direction: row;
      }
-     strong{
-         color: rgb(27, 0, 90);
-     }
-     h1{
-         align-items: center;
-     }
-     logo a {
-        margin : 5px;
+     .logo {
         text-decoration: none;
         color:rgb(219 , 32 , 63 ) ;
-        font-size: 35px;
-        font-weight : 600 ; 
-        position:fixed;
-        width: 100%;
-    font-family:helvetica,sans-serif;
+        font-weight : 800 ; 
+        font-family:helvetica,sans-serif;
    }
      .logo a span{
         color :rgb(17, 55, 223) ; 
         text-decoration : none ;
         font-weight: bold;
-        display: block;
         font-size:large;
         display : inline-block ; 
-        background:none;
         background: thistle;
         padding : 5px 15px ; 
         border: teal 2px solid;
-    } 
+    }
+    .pht a{
+        color :rgb(17, 55, 223) ; 
+        font-weight: bold;
+      
+        text-decoration: none;
+        background:none;
+        border:2px solid ;
+        padding: 5px;
+    }
+    .pht a:hover{
+        border: 2px solid teal;
+        padding: 5px;
+        background:rgb(17, 55, 223) ;
+        color: whitesmoke;
+    }
      #hmetxt { 
         color :rgb(17, 55, 223) ; 
         text-decoration : none ;
         font-weight: bold;
         display: block;
+        margin-top: -3.4em;
         float: right;
         font-size:large;
         background:none;
@@ -162,18 +131,25 @@ h3{
         border-top: 5px solid teal;
         transition: 0.9s;
         }
-
+        b{
+            font-weight: 900;
+            text-align: center;
+        }
+        h2{
+            font-size: 1.3em;
+            font-weight: bolder;
+        }
         @media only  screen  and (max-width:500px){
             body{
-                background: bisque;
+                background:rgb(217, 239, 241);
             }
-            header{
-                background: rgb(255, 143, 5);
+            nav{
+                background: powderblue;
+                padding:1em;
+                height: 1.8cm;
+                margin-left: -.5em;
+                margin-top: -0.5em;
             }
-           .menus ul{
-               padding-bottom: 2px;
-               height: 10px;
-           }
             .logo .hmetxt a{
                 border: none;
                 color: blue;
@@ -188,17 +164,28 @@ h3{
                 color: #000;
                 height: 38em;
             }
-            nav{
-                background: bisque;
-                margin: 0;
-                border: 0;
-            }
             a[href="mailto:vybekid1@gmail.com"],[href="https://twitter.com/vybekid1"],[href="https://facebook.com/vybekid1"],[href="https://instagram.com/vybekid1"]{
                 font-size: 12rem;
                 color: rgb(2, 236, 253);
                 text-decoration: none;
             }
-            footer .links a {
-                font-size: 1.2rem;
+
+            footer .links a{
+                text-align: left;
+                display: block;
+                color: rgb(0, 0, 0);
+                font-size: .5em;
+                font-weight: 900;
+                margin-top: -1em;
+            }
+            .menu{
+                background:rgb(122, 96, 74) ;
+                border:2px solid turquoise;
+                font-size: 0.75rem;
+            
+            }
+            .pie img{
+                width:200px;
+                margin: .1em;
             }
         }
