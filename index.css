@@ -46,6 +46,8 @@ main{
     width: 230px;
     justify-content: space-between;
     margin: .4em;
+    border:2px solid slategrey;
+    border-radius: 5px;
 }
      a[href="https://instagram.com/vybekid1"]:hover{
          color: rgba(224, 26, 125, 0.945);
@@ -187,6 +189,8 @@ main{
             .pie img{
                 width:120px;
                 margin: .1em;
+                border:2px solid slategrey;
+                border-radius: 5px;
             }
         .ht-img a{
             margin-left: 35%;
