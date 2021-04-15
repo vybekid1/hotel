@@ -36,7 +36,9 @@ hr{
 }
 main{
     padding: 1em;
+    text-align: center;
 }
+
 .pie{
     display: block;
     justify-content: space-between;
@@ -46,8 +48,8 @@ main{
     width: 230px;
     justify-content: space-between;
     margin: .4em;
-    border:2px solid slategrey;
-    border-radius: 5px;
+    border:5px solid rgb(106, 152, 199);
+    border-radius: 12px;
 }
      a[href="https://instagram.com/vybekid1"]:hover{
          color: rgba(224, 26, 125, 0.945);
@@ -89,14 +91,18 @@ main{
         padding : 5px 15px ; 
         border: teal 2px solid;
     }
+    .pht{
+        margin: 2em;
+        justify-content: space-evenly;
+    }
     .pht a{
+        padding: 5px;
         color :rgb(17, 55, 223) ; 
         font-weight: bold;
-      
         text-decoration: none;
         background:none;
+        margin-top: 5em;
         border:2px solid ;
-        padding: 5px;
     }
     .pht a:hover{
         border: 2px solid teal;
@@ -187,12 +193,16 @@ main{
             
             }
             .pie img{
-                width:120px;
+                width:125px;
                 margin: .1em;
+                margin-bottom: -3em;
                 border:2px solid slategrey;
                 border-radius: 5px;
             }
         .ht-img a{
             margin-left: 35%;
+        }
+        .pht{
+            margin-top: 3em;
         }
         }
