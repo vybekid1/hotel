@@ -101,6 +101,9 @@ abbr{
   ul{
     font-size: .9rem;
   }
+  abbr{
+    text-decoration:none ;
+  }
   h1{
     text-transform: uppercase;
     font-size: .8em;
@@ -152,15 +155,14 @@ abbr{
    .jean .image img, .emilie .image img , .vickie .image img{
     border: rgb(60, 93, 243) 4px solid;
     border-radius: 50%;
-    margin-top: -3.0em;
+    margin-top: -2.8em;
     margin-left: 0%;
-    backface-visibility:hidden;
   }
   .jean p{
     font-weight:900;
     font-size: 1rem;
     text-align: center;
-    border-bottom: 2px black solid;
+    border-bottom: 5px po solid;
     border-top: 2px solid black;
     width: fit-content;
     border-left: none;
@@ -171,7 +173,7 @@ abbr{
   font-weight:900;
   font-size: 1rem;
   text-align: center;
-  border-bottom: 2px black solid;
+  border-bottom: 3px black solid;
   border-top: 2px solid black;
   width: fit-content;
   border-left: none;
@@ -180,10 +182,14 @@ abbr{
 }
 
 header{
-  height: 3em;
-  background-color: plum;
+  background:powderblue;
+  padding:1em;
+  height: 2cm;
+}
+header a{
   padding: 5px;
 }
+
   .home a{
     display: flex;
   float: right;

@@ -1,6 +1,6 @@
 body{
     background:rgb(217, 239, 241);
-    font-family:Helvetica,Arial,sans-serif;
+    font-family:"Arial Nova";
     color: rgb(0, 17, 255);
 
 }
@@ -23,22 +23,24 @@ hr{
     border: 3px solid  ;
 }
 .ht-img img{
-    width:100px ;
-    margin-top: -8em;
+    width:80px ;
+    margin-top: 0;
     border-radius:50% ;
-    border: 5px solid teal;
+    border: 7px solid teal;
 }
 .ht-img img:hover{
-    width:100px ;
-    margin-top: -8em;
+    width:80px ;
+    margin-top: 0;
     border-radius:50% ;
-    border: 5px solid rgb(0, 157, 248);
+    border: 7px solid rgb(0, 157, 248);
 }
 main{
     padding: 1em;
     text-align: center;
 }
-
+ul a{
+    display: flex;
+}
 .pie{
     display: block;
     justify-content: space-between;
@@ -64,33 +66,19 @@ main{
         color: rgb(5, 69, 151);
     }
      footer .links a{
-         background-color:none;
          color: rgb(0, 0, 0);
-         text-align: left;
          width: fit-content;
-         display: block;
+         padding: .3em;
+         height: 1em;
+         display: flex;
+         margin-left: 2em;
+         border-left: 4px solid currentColor;
          text-decoration: none;
-         margin-top: -.4em;
+         margin-top: .4em;
      }
      .att{
          text-align: center;
      }
-     .logo {
-        text-decoration: none;
-        color:rgb(219 , 32 , 63 ) ;
-        font-weight : 800 ; 
-        font-family:helvetica,sans-serif;
-   }
-     .logo a span{
-        color :rgb(17, 55, 223) ; 
-        text-decoration : none ;
-        font-weight: bold;
-        font-size:large;
-        display : inline-block ; 
-        background: thistle;
-        padding : 5px 15px ; 
-        border: teal 2px solid;
-    }
     .pht{
         margin: 2em;
         justify-content: space-evenly;
@@ -110,67 +98,59 @@ main{
         background:rgb(17, 55, 223) ;
         color: whitesmoke;
     }
-     #hmetxt { 
-        color :rgb(17, 55, 223) ; 
-        text-decoration : none ;
-        font-weight: bold;
-        display: block;
-        margin-top: -3.4em;
-        float: right;
-        font-size:large;
-        background:none;
-        background: thistle;
-        }
-        .logo span:hover{
-            color:thistle;
-            font-weight: bold;
-            font-size:large;
-            background:rgb(17, 55, 223);
-            border-bottom: 5px solid teal;
-            border-top: 5px solid teal;
-            transition: 0.9s;
-        }
-     #hmetxt span:hover {
-        color:thistle;
-        font-weight: bold;
-        font-size:large;
-        background:rgb(17, 55, 223);
-        border-bottom: 5px solid teal;
-        border-top: 5px solid teal;
-        transition: 0.9s;
-        }
         b{
             font-weight: 900;
             text-align: center;
         }
         h2{
-            font-size: 1.3em;
-            font-weight: bolder;
+            font-size: 1em;
+            font-weight: 700;
         }
+
+        .txte{
+            margin-left: 6%;
+            padding-left:.4em;
+        }
+
+        .comm{
+            display:block;
+            justify-content: space-between;
+            
+        }
+        #message,#email{
+            background: none;
+            border-radius:5px ;
+            font-weight: 800;
+            padding: .6em;
+            margin-left: 5em;
+            display: flex;
+            font-size: 0.5rem;
+            border: 3px solid teal;
+        }
+        button{
+            background-color: rgb(77, 38, 253);
+            color: white;
+            margin-top: 1em;
+            border-radius: 2em;
+            border:solid darkcyan;
+        }
+
         @media only  screen  and (max-width:500px){
             body{
                 background:rgb(217, 239, 241);
             }
             nav{
-                background: powderblue;
+                background:powderblue;
                 padding:1em;
-                height: 1.8cm;
+                height: 2.3cm;
                 margin-left: -.5em;
                 margin-top: -0.5em;
             }
-            .logo .hmetxt a{
-                border: none;
-                color: blue;
-                font-size: 1rem;
-            }
-            .menu .menus{
-                margin: 0;
-                font-size: 1rem;
-                text-align: center;
-                margin-right: 0;
-                font-weight: bold;
-                color: #000;
-                height: 38em;
+
+            #a{
+                z-index: 1;
+                margin-right: -3em;
+                margin-bottom: -3em;
             }
             a[href="mailto:vybekid1@gmail.com"],[href="https://twitter.com/vybekid1"],[href="https://facebook.com/vybekid1"],[href="https://instagram.com/vybekid1"]{
                 font-size: 12rem;
@@ -179,18 +159,12 @@ main{
             }
 
             footer .links a{
-                text-align: left;
                 display: block;
+                flex-direction: row;
                 color: rgb(0, 0, 0);
-                font-size: .5em;
-                font-weight: 900;
+                font-size: .3em;
+                font-weight: 500;
                 margin-top: -1em;
-            }
-            .menu{
-                background:rgb(122, 96, 74) ;
-                border:2px solid turquoise;
-                font-size: 0.75rem;
-            
             }
             .pie img{
                 width:125px;
@@ -204,5 +178,14 @@ main{
         }
         .pht{
             margin-top: 3em;
+        }
+        .comm{
+            display: block;
+        }
+        #message{
+            margin: 1em;
+        }
+        .txte{
+            margin: .4em;
         }
         }
