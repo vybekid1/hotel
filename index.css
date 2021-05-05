@@ -41,6 +41,7 @@ main{
 ul a{
     display: flex;
 }
+
 .pie{
     display: block;
     justify-content: space-between;
@@ -127,12 +128,14 @@ ul a{
             font-size: 0.5rem;
             border: 3px solid teal;
         }
-        button{
+        #submit{
             background-color: rgb(77, 38, 253);
             color: white;
             margin-top: 1em;
+            padding: 4px;
+            overflow: hidden;
             border-radius: 2em;
-            border:solid darkcyan;
+            border:2px solid darkcyan;
         }
 
         @media only  screen  and (max-width:500px){
@@ -183,7 +186,12 @@ ul a{
             display: block;
         }
         #message{
-            margin: 1em;
+        margin: .5em;
+        width: 90%;
+        }
+        #email{
+            width: 90%;
+            margin: .5em;
         }
         .txte{
             margin: .4em;
